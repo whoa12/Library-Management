@@ -45,6 +45,7 @@ Then, create a database named librarydb. You can do this either in MySQL Workben
 In Git Bash (from inside the project directory), run the following command:
 
 *export DB_USERNAME=your_username && export DB_PASSWORD=your_password && mvn spring-boot:run*
+
 Please replace the placeholders with your actual MySQL username and password.
 
 
