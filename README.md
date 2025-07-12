@@ -1,3 +1,24 @@
+A simple Spring Boot application for managing a library's book catalog with RESTful APIs and MySQL integration.
+
+
+
+### Pre-requistics
+1. Java Development Kit (JDK 21 or higher)
+
+2. Apache Maven 3.8+
+
+3. MySQL Server (version 8.x recommended)
+
+4. GUI tools (optional): MySQL Workbench or MySQL Shell
+
+5.  IDE (Recommended): IntelliJ IDEA (with Spring support)
+
+6.  Spring Boot version used: 3.5.3
+
+
+
+
+
 ##  How to Run the Project
 
 ### 1. Clone the repository
@@ -17,7 +38,7 @@ Then, create a database named librarydb. You can do this either in MySQL Workben
 *CREATE DATABASE librarydb;*
 
 
-### 3.  3. Configure Credentials & Run the Application
+###   3. Configure Credentials & Run the Application
 
 In Git Bash (from inside the project directory), run:
 
@@ -26,7 +47,7 @@ Please replace the placeholders with your actual MySQL username and password.
 
 
 
-### 3. Endpoints:
+### 4. Endpoints:
 Here are the main API endpoints you can try out:
 
 POST	        /book/add	                               Add a new book
@@ -35,7 +56,10 @@ GET	          /book/{bookId}	                         Get details of a specific 
 PUT	          /book/{bookId}/update	                   Update book availability
 DELETE	      /book/{bookId}/delete	                   Delete a book by ID
 
+
+
 ### Postman Screenshots:
+
 a) Adding a new book:
 ![image alts](https://github.com/whoa12/Library-Management/blob/main/Screenshot%20(103).png?raw=true)
 
