@@ -54,9 +54,13 @@ Please replace the placeholders with your actual MySQL username and password.
 Here are the main API endpoints you can try out:
 
 POST	        /book/add	                               Add a new book
+
 GET	          /book/list	                             Retrieve a list of all books
+
 GET	          /book/{bookId}	                         Get details of a specific book
+
 PUT	          /book/{bookId}/update	                   Update book availability
+
 DELETE	      /book/{bookId}/delete	                   Delete a book by ID
 
 
