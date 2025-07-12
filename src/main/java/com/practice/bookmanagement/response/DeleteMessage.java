@@ -1,6 +1,5 @@
 package com.practice.bookmanagement.response;
 
-import lombok.Data;
 
 
 public class DeleteMessage {
