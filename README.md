@@ -70,7 +70,7 @@ DELETE	      /book/{bookId}/delete	                   Delete a book by ID
   "id": 101,
   "title": "Effective Java",
   "author": "Joshua Bloch",
-  "isbn": "9780134685991",
+  "isbn": "9780134685991"
   
 }
    //default availibility is set to true.
