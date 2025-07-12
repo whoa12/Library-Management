@@ -64,6 +64,19 @@ PUT	          /book/{bookId}/update	                   Update book availability
 DELETE	      /book/{bookId}/delete	                   Delete a book by ID
 
 
+### Sample Json response for creating a book:
+
+{  
+  "id": 101,
+  "title": "Effective Java",
+  "author": "Joshua Bloch",
+  "isbn": "9780134685991",
+  
+}
+   //default availibility is set to true.
+
+
+
 
 ### Postman Screenshots:
 
